@@ -1,0 +1,224 @@
+@media (min-width: 769px) {
+
+
+  #title h1 {
+    font-size:70px !important;
+    margin-top:50px;
+  }
+  .main-img {
+  height: 400px
+  }
+
+  .select-city .txt,
+  .select-district .txt {
+    text-align: right;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .select-city,
+  .select-district {
+    text-align: center;
+  }
+}
+.sub-chapter {
+  padding: 10px 0;
+}
+
+.sub-head {
+  padding: 10px 0;
+  background: #f1f1f1;
+}
+
+.header #language {
+  float: right;
+}
+
+
+.main-img {
+  background-image: url(../assets/bg/bg.jpg);
+  background-position: center;
+  background-size: cover;
+min-height: 200px;
+max-height: 400px;
+}
+
+#title h1 {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.btn-primary {
+  background-color:
+}
+
+.select-city {
+  padding: 20px 0;
+margin: 10px 0 0;
+border-top: solid 1px #ccc;
+
+}
+.select-city .txt,
+.select-district .txt
+ {
+  margin-top: 5px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description .discount{
+  color: rgba(255, 128, 0, 1);
+  margin-left: 20px
+
+}
+
+.description .address{
+  color: #d21212;
+  font-weight: bold;
+
+}
+
+.order {
+  border-top: solid 1px #ccc;
+  margin-top: 20px;
+  padding-top: 20px
+
+}
+
+.order .btn {
+  padding: 10px 30px
+}
+
+.list-store {
+  padding: 30px 0;
+}
+.list-store h2{
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 40px
+}
+
+.box {
+  /*border: solid 1px #ccc;*/
+  height: 310px;
+  position: relative;
+}
+
+/*.box .info {
+  padding: 10px
+}*/
+.box .info .title {
+  color: rgba(255, 128, 0, 1);
+  font-size: 17px
+}
+
+.box .info .discount {
+  color: red;
+  font-weight: bold
+}
+.item {
+  position: relative;
+  margin-bottom: 30px;
+
+}
+
+.item .btn {
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  margin-left: -42px;
+  display: none;
+}
+
+.item:hover .btn{
+  display: inline;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+#area {
+  background: rgba(255, 128, 0, 1);;
+color: white;
+border: none;
+height: 35px;
+}
+
+.btn-info a{
+  color: #fff;
+}
+
+.item .box .picture {
+  height: 160px;
+  overflow: hidden;
+}
+
+.box .discount {
+  background: rgba(255, 128, 0, 1);
+  color: #fff;
+  padding: 3px 15px;
+  position: absolute;
+  top: 15px
+}
+
+.btn-info {
+  background: rgba(255, 128, 0, 1);
+  border: rgba(255, 128, 0, 1);
+}
+.btn-info:hover {
+  background: rgba(231, 118, 0, 1);
+  border: rgba(231, 118, 0, 1);
+}
+
+.select-city h3{
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.select-district {
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 40px
+}
+
+.rest-list {
+  width: 100%;
+  margin-bottom: 20px
+
+}
+
+.rest-list tr{
+    border: solid 1px #ccc;
+}
+
+.rest-list td {
+  padding: 10px
+}
+
+.rest-list td:first-child{
+  width: 50%
+}
+
+.rest-list td:last-child{
+display: -webkit-box;
+border: none;
+margin-right: 180px
+}
+
+.rest-list label {
+  margin-left: 10px
+}
+
+h2.list {
+  text-align: center;
+  padding: 20px 0 30px 0;
+}

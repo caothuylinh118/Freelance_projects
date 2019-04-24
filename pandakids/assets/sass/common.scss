@@ -1,0 +1,68 @@
+@charset "utf-8";
+@import "settings";
+@import "utilities";
+@import 'themify-icons';
+
+/* -----------------------------------------------------------
+  reset
+----------------------------------------------------------- */
+html{overflow-y:scroll}abbr,address,article,aside,audio,b,blockquote,body,caption,cite,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left}q:after,q:before{content:''}embed,object{vertical-align:top}hr,legend{display:none}h1,h2,h3,h4,h5,h6{font-size:100%}abbr,acronym,fieldset,img{border:0}li{list-style-type:none}sup{vertical-align:super;font-size:.5em}img{vertical-align:top}i{font-style:normal}
+
+
+/* -----------------------------------------------------------
+  default
+----------------------------------------------------------- */
+html {
+  line-height: 1.5;
+  font-size: 62.5% !important;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%; /* iOS 8+ */
+  @include mq(sp) {
+    &[data-direction=portrait] {
+      font-size: 3vw !important;
+    }
+  }
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #aaa;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #aaa;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #aaa;
+}
+
+body {
+  font-size: 18px;
+  color: $baseColor;
+  background: #fff;
+  -webkit-text-size-adjust: none;
+  font-weight: 400;
+  overflow: hidden;
+  @media only screen and (max-width: 768px){
+    font-size: 14px;
+  }
+}
+body,pre,input,textarea,select {
+  font-family: 'Roboto', sans-serif;
+}
+input,select,textarea {
+  font-size: 100%;
+}
+input {
+  border: solid 1px #E5E5E5;
+}
+// .mouseOver
+.over {
+  .mouse & {
+    transition: opacity 150ms ease-in;
+  }
+  @include hover {
+    opacity: .7;
+  }
+}

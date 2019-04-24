@@ -1,0 +1,20 @@
+en = {
+    "welcome_title" : "MILK TEAS AND DRINKS",
+    "choose_city" : "CHOOSE CITY",
+    "description" : "Description",
+    "view_more" : "View more",
+    "delivery" : "Delivery: ",
+    "book_now" : "Order now",
+    "discount" : "Discount",
+    "buy" : "Buy",
+    "get" : "get",
+    "free": "free",
+    "free_up_size":"Free up size",
+    "comments_1" : "From ",
+    "comments_2" : " reviews",
+    "welcome_at" : "MILK TEA RESTAURANT IN",
+    "choose_restaurant": "CHOOSE THE NEAREST RESTAURANT",
+    "choose_district": "CHOOSE DISTRICT",
+    "banner_url": "banner_en.jpg",
+    "same_price": "All items"
+}

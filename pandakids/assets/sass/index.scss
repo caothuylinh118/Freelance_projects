@@ -1,0 +1,347 @@
+@charset "utf-8";
+@import "settings";
+@import "utilities";
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #999;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #999;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  @media only screen and (max-width: 768px){
+    width: 100%;
+  }
+}
+
+img {
+  @media only screen and (max-width: 768px){
+    width: 100%;
+  }
+}
+.banner {
+  position: relative;
+  background: url("/assets/images/bg04.png") no-repeat;
+  background-size: cover;
+  .logo {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    @media only screen and (max-width: 768px){
+      top: 10px;
+      right: 10px;
+    }
+  }
+}
+.promotion {
+  position: relative;
+  background: url("/assets/images/bg01.png") no-repeat;
+  background-size: cover;
+  z-index: 10;
+  .button {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    &:hover {
+      img {
+        position: relative;
+        top: -5px;
+        transition: 1s;
+        -webkit-transition: 1s;
+      }
+    }
+    @media only screen and (max-width: 768px){
+      bottom: 0;
+
+      img {
+        width: 130px;
+      }
+    }
+  }
+}
+
+.reason {
+  background-color: #f5b939; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#f5b939, #e18a0e); /* Standard syntax (must be last) */
+  position: relative;
+  .container {
+    width: 820px;
+    @media only screen and (max-width: 768px){
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    padding: 0 10px;
+  }
+  .icon01 {
+    position: absolute;
+    top: -23px;
+    right: 0;
+    z-index: 1;
+    @media only screen and (max-width: 768px){
+      width: 160px;
+      top: 0;
+    }
+  }
+  .icon03 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    @media only screen and (max-width: 768px){
+      width: 200px;
+    }
+  }
+  .icon04 {
+    position: absolute;
+    bottom: 580px;
+    left: 50px;
+    z-index: 1;
+    @media only screen and (max-width: 768px){
+      bottom: 831px;
+left: 2px;
+z-index: 1;
+width: 70px;
+    }
+  }
+  .icon02 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: 1;
+    @media only screen and (max-width: 768px){
+      width: 160px;
+    }
+  }
+  h2 {
+    text-align: center;
+    padding: 30px 0;
+    z-index: 10;
+    position: relative;
+  }
+  h3 {
+    margin-bottom: 20px;
+    z-index: 10;
+    position: relative;
+  }
+  &_inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    @media only screen and (max-width: 768px){
+      flex-direction: column;
+    }
+    h4 {
+      font-size: 18px;
+      text-decoration: underline;
+      text-transform: uppercase;
+      font-style: italic;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+    &_text {
+      flex: 0 0 460px;
+      padding-left: 20px;
+      box-sizing: border-box;
+      text-align: justify;
+      z-index: 10;
+      @media only screen and (max-width: 768px){
+        flex: 0 0 100%;
+        padding-left: 0;
+      }
+    }
+    &_img {
+      z-index: 10;
+    }
+    &_left {
+      flex: 0 0 48%;
+      padding-left: 20px;
+      @media only screen and (max-width: 768px){
+        flex: 0 0 100%;
+        padding-left: 0;
+        margin-bottom: 20px;
+      }
+    }
+    &_right {
+      flex: 0 0 48%;
+      z-index: 10;
+      @media only screen and (max-width: 768px){
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+      }
+      p {
+        padding-left: 30px;
+        margin-bottom: 20px;
+        @media only screen and (max-width: 768px){
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.class {
+  background: url("/assets/images/bg05.png") repeat;
+  @media only screen and (max-width: 768px){
+    padding: 10px 0;
+    background: #006963;
+  }
+  .container {
+    background: url("/assets/images/bg02.png") no-repeat;
+    padding: 64px 0;
+  }
+  &_inner {
+    width: 820px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &_item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #fff;
+      &:hover {
+        img {
+          position: relative;
+          top: -10px;
+          transition: 1s;
+          -webkit-transition: 1s;
+        }
+      }
+      img {
+        margin-bottom: 10px;
+
+      }
+      h3, p {
+        margin-left: 15px;
+
+      }
+    }
+    @media only screen and (max-width: 768px){
+      flex-direction: column;
+      width: 100%;
+      &_item {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+        img {
+          width: 300px;
+          margin-bottom: 20px;
+        }
+      }
+
+    }
+  }
+}
+
+.gallery {
+  background-color: #f5b939; /* For browsers that do not support gradients */
+  background-image: url("/assets/images/bg03.png"); /* Standard syntax (must be last) */
+  position: relative;
+  background-size: 100%;
+  @media only screen and (max-width: 768px){
+    padding: 0 10px;
+  }
+  .container {
+    width: 820px;
+    margin: 0 auto;
+    @media only screen and (max-width: 768px){
+      width: 100%;
+    }
+  }
+  .icon05 {
+    position: absolute;
+    top: 550px;
+    left: 20px;
+    @media only screen and (max-width: 768px){
+      display: none
+    }
+  }
+  .icon06 {
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    @media only screen and (max-width: 768px){
+      display: none
+    }
+  }
+  &_inner {
+    font-size: 14px;
+    .item{
+      img {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  &_inner_02 {
+    font-size: 13px;
+    .item {
+      .row {
+        position: relative;
+        padding-left: 200px;
+        background: #fff;
+        border-radius: 10px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        @media only screen and (max-width: 768px){
+          border-radius: 10px;
+          padding-left: 10px;
+          margin-left: 0;
+        }
+        .col-md-3 {
+          position: absolute;
+          top: -7px;
+          left: -100px;
+          z-index: 10;
+          @media only screen and (max-width: 768px){
+            position: relative;
+            top: 0;
+            left: 0;
+          }
+        }
+        .comment {
+          height: 268px;
+          padding: 30px;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: justify;
+          position: relative;
+          z-index: 1;
+          @media only screen and (max-width: 768px){
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  h2 {
+    text-align: center;
+    padding: 50px 0;
+    @media only screen and (max-width: 768px){
+      padding: 20px 0;
+      img {
+        width: 200px;
+        &.title_b {
+          width: 100px;
+        }
+
+      }
+    }
+  }
+}

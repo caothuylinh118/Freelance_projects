@@ -1,0 +1,21 @@
+vi = {
+    "welcome_title" : "TRÀ SỮA & NƯỚC GIẢI KHÁT",
+    "choose_city" : "CHỌN THÀNH PHỐ",
+    "description" : "Mô tả",
+    "view_more" : "Xem thêm",
+    "delivery" : "Giao hàng: ",
+    "book_now" : "Đặt ngay",
+    "discount" : "Giảm giá",
+    "buy" : "Mua",
+    "get" : "tặng",
+    "free": "",
+    "free_up_size":"Free up size",
+    "comments_1" : "Từ ",
+    "comments_2" : " nhận xét",
+    "welcome_at" : "NHÀ HÀNG TRÀ SỮA TẠI",
+    "choose_restaurant": "CHỌN NHÀ HÀNG TRÀ SỮA GẦN BẠN",
+    "choose_district": "CHỌN QUẬN",
+    "banner_url": "banner.jpg",
+    "same_price": "Đồng giá"
+
+}
